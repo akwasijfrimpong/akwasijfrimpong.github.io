@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Akwasi Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+
+  </head>
+  
+  <body>
+    <script>
+      function home(){
+        document.querySelector(".hero").scrollIntoView(true);
+
+      }
+      function experience(){
+        document.querySelector(".experience").scrollIntoView(true);
+
+      }
+      function about(){
+        document.querySelector(".aboutMe").scrollIntoView(true);
+
+      }
+      function contact(){
+        document.querySelector(".contactMe").scrollIntoView(true);
+
+      }
+      function findOutMore(){
+        document.querySelector(".experience").scrollIntoView(true);
+
+      }
+    </script>
+    <div class="mainContainer">
+
+        <!-- navigation bar -->
+        <div class="nav">
+            <button class="navBtn" onclick="home()">Home</button>
+            <button class="navBtn" onclick="experience()">Experience</button>
+            <button class="navBtn" onclick="about()" >About</button>
+            <button class="navBtn" onclick="contact()">Contact</button>
+        </div>
+
+        <!-- personal statement -->
+       <div class="hero">
+        <div class="container col-xxl-8 px-4 py-5">
+            <div class="row flex-lg-row-reverse align-items-center g-5 py-5">
+              <div class="col-10 col-sm-8 col-lg-6">
+                <img src="download.png" class="d-block mx-lg-5 img-fluid" alt="Bootstrap Themes" width="700" height="500" loading="lazy">
+              </div>
+              <div class="col-lg-6">
+                <h1 class="display-5 fw-bold lh-1 mb-3">Hi, I'm Akwasi Frimpong</h1>
+                <p class="lead"> I'm a software developer with 2 years of industry experience. I'm passionate about software and all things tech.
+                </p>
+                <div class="d-grid gap-2 d-md-flex justify-content-md-start">
+                  <button type="button" onclick="findOutMore()" class="btn btn-primary btn-lg px-4 me-md-2 findOutMore">Find out More</button>
+             
+                </div>
+              </div>
+            </div>
+          </div>
+       </div>
+
+       <!-- Job experience -->
+       <div class="experience">
+
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom hLine">Work Experience</h2>
+            <div class="imageYears pt-5 ">
+            <image src="datacom-logo.png" width="200px"></image>
+            <h3 class="date py-2 px-5">Nov 2021 - Nov 2023</h3>
+             </div>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+         
+                <h2>Associate Technical Consultant</h2>
+                <ul>
+                    <li class="py-1">Liaised with clients to gather requirements.</li>
+                    <li class="py-1">Created multiple complex LWC using JavaScript.</li>
+                    <li class="py-1">Used APEX to manage API calls.</li>
+                    <li class="py-1">Used HTML and CSS to style component based off FIGMA specifications.</li>
+                    <li class="py-1">Used Git and Azure DevOp, to collaborate with multiple developer.</li>
+                    <li class="py-1">Used Javascript to interact with APIs, and manipulated the data.</li>
+                </ul>
+             
+              </div>
+              <div class="feature col">
+                
+                <h2>Graduate Technical Consultant</h2>
+                <ul>
+                    <li class="py-1">Demoed components on a weekly basis to clients.</li>
+                    <li class="py-1">Story pointed and delivered stories within deadlines.</li>
+                    <li class="py-1">Created test classes, for both mine and other developers code.</li>
+                    <li class="py-1">Raised bugs, fixed bugs, and collaborated with testers.</li>
+                    <li class="py-1">Provided support for clients.</li>
+                    <li class="py-1">Configured many outbox functionality, such as permission sets, profiles, and flows.</li>
+                </ul>
+             
+              </div>
+              <div class="feature col">
+   
+                <h2>Salesforce Intern</h2>
+                <ul>
+                    <li class="py-1">Gathered requirements from a internal stake holders.</li>
+                    <li class="py-1">Created multiple reports based of client requirements.</li>
+                    <li class="py-1">Worked with and collaborated with other interns.</li>
+                </ul>
+             
+            
+                
+              </div>
+            </div>
+          </div>
+
+       </div>
+
+
+       <div class="experience">
+
+        <div class="container px-4 py-5" id="featured-3">
+            <h2 class="pb-2 border-bottom hLine"></h2>
+            <div class="imageYears pt-5 ">
+            <image src="epicure logo.png" width="200px"></image>
+            <h3 class="date py-2 px-5">June 2018 - Nov 2021</h3>
+             </div>
+            <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+              <div class="feature col">
+         
+                <h2>Bar Supervisor</h2>
+                <ul>
+                    <li class="py-1">Worked as a team in a fast paced environment.</li>
+                    <li class="py-1">Taught staff how to use equipment.</li>
+                    <li class="py-1">Worked in a fast paced enivronment.</li>
+                    <li class="py-1">Dealt with difficult customers, and successfully de-escalated situations.</li>
+                   
+                </ul>
+             
+              </div>
+              <div class="feature col">
+                
+                <h2>Event Setup</h2>
+                <ul>
+                    <li class="py-1">Set-up events for clients.</li>
+                    <li class="py-1">Migrated stock and furniture across the stadium.</li>
+                    <li class="py-1">Kept environments clean</li>
+                    <li class="py-1">Was proactive and made sure all units had extra stock.</li>
+                </ul>
+             
+              </div>
+           
+            </div>
+          </div>
+
+       </div>
+
+
+       <!-- About Me -->
+            <div class="aboutMe">
+                    <div class="carouselContainer">
+                    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                        <div class="carousel-inner carousel-container">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100 cImg" src="laptop.avif" alt="First slide">
+                                
+                            </div>
+                        <div class="carousel-item ">
+                            <img class="d-block w-100 cImg" src="salsa ball.jpg" alt="First slide">
+                            
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block h-100 cImg" src="hip-hop domi.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item text-center">
+                            <img class="d-block w-1005 cImg text-center" src="graduation.jpg" alt="Third slide">
+                        </div>
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                    <div class="jumbotron jumbotron-fluid py-5">
+                        <div class="container py-5">
+                        <h1 class="display-4">About Me</h1>
+                        <p class="lead">Hi there, I'm Akwasi a proud Kiwi with roots from Samoa and Ghana. I grew up in central Auckland, and went from Mt Roskill Primary, all the way to Mt Roskill Grammar, during this time I found my love for tech, and decided to study computer science at the University of Auckland. There I equipped myself with the skills I needed to thrive in the tech industry. After university I spent 2 years as a salesforce developer at Datacom, where I further honed my skills. Yet, beyound coding I enjoy being active and I spend alot of my time diving into random sports & hobbies. Initially it was basketball, then muay thai, and now I find my self diving into the world of dance.
+
+                        </p>
+                        </div>
+                    </div>
+
+                    <!-- contact me -->
+                    <div class="row featurette px-5 pt-5 mx-2 contactMe">
+                        <div class="col-md-7 order-md-2">
+                          <h2 class="featurette-heading">Contact Me <span class="text-muted"></span></h2>
+                          <p class="lead">Find me on <a href="https://www.linkedin.com/in/akwasi-frimpong-262864217/">Linkedin</a></p>
+                          <p>Email: akwasijfrimpong@gmail.com</p>
+                          <p>Github: <a href="https://github.com/akwasijfrimpong">https://github.com/akwasijfrimpong</a></p>
+                          <p>Trailhead: <a href="https://www.salesforce.com/trailblazer/profile"> https://www.salesforce.com/trailblazer/profile</a></p>
+                          <p>LeetCode: <a href="https://leetcode.com/akwasijfrimpong/">https://leetcode.com/akwasijfrimpong/</a></p>
+                        </div>
+                        <div class="col-md-5 order-md-1">
+                          <img class="featurette-image img-fluid mx-auto" data-src="holder.js/500x500/auto" alt="500x500" style="width: 500px; height: 500px;" src="call-me.gif" data-holder-rendered="true">
+                        </div>
+                      </div>
+                </div>
+
+
+            </div>
+
+   
+    
+    </div>
+
+
+
+       
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+  </body>
+</html>
